@@ -1,0 +1,260 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "verify Laptops page Display",
+        "description": "",
+        "id": "verify-categories-functionality;verify-laptops-page-display",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1184907800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "launch \"\u003cURL\u003e\" urlsum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "loginsummer.launch_urlsum(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81271700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click LaptopsLink",
+            "match": {
+              "location": "Categories.click_Laptops()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 104674500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verify LaptopsDisplay",
+            "match": {
+              "location": "Categories.verify_LaptopsDisplay()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Verify CATEGORIES Functionality",
+    "description": "",
+    "id": "verify-categories-functionality",
+    "keyword": "Feature",
+    "uri": "CATEGORIES.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "Need verification of user login successfully",
+        "description": "",
+        "id": "this-feature-is-to-validate-items-add-to-cart-functionality-successfully;need-verification-of-user-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 463789400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "launch \"\u003cURL\u003e\" urlsum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURL\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "loginsummer.launch_urlsum(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62331700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click Monitor",
+            "match": {
+              "location": "Cartsummer.click_Monitor()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3367314900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click AppleMonitor24",
+            "match": {
+              "arguments": [
+                {
+                  "val": "24",
+                  "offset": 18
+                }
+              ],
+              "location": "Cartsummer.click_AppleMonitor(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3066449100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click Add to Cart alert",
+            "match": {
+              "location": "Cartsummer.click_Add_to_Cart_alert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 32396200,
+              "error_message": "org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Product added}\n  (Session info: chrome\u003d103.0.5060.114): Product added\nBuild info: version: \u00273.14.0\u0027, revision: \u0027aacccce0\u0027, time: \u00272018-08-02T20:19:58.91Z\u0027\nSystem info: host: \u0027ZULFIQAR\u0027, ip: \u0027192.168.1.47\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.13\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 103.0.5060.114, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\\Users\\zulfi\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:65473}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: e5a3a128839fd8701d09bc3dd78e2b72\n*** Element info: {Using\u003did, value\u003dcartur}\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:368)\r\n\tat org.openqa.selenium.By$ById.findElement(By.java:188)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)\r\n\tat com.sun.proxy.$Proxy23.click(Unknown Source)\r\n\tat com.summer.actions.addtocartActions.clickCarttocheck(addtocartActions.java:18)\r\n\tat StepDefinitionSummer.Cartsummer.click_Cart_to_check(Cartsummer.java:44)\r\n\tat ✽.Then click Cart to check(Cartsummer.feature:11)\r\n",
+              "status": "failed"
+            },
+            "line": 11,
+            "name": "click Cart to check",
+            "match": {
+              "location": "Cartsummer.click_Cart_to_check()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "verify Order Placed",
+            "match": {
+              "location": "Cartsummer.verify_Order_Placed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to validate items add to cart functionality successfully",
+    "description": "",
+    "id": "this-feature-is-to-validate-items-add-to-cart-functionality-successfully",
+    "keyword": "Feature",
+    "uri": "Cartsummer.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "Need verification of user login successfully",
+        "description": "",
+        "id": "this-feature-is-to-validate-login-functionality-in-project-summer;need-verification-of-user-login-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 507863400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "launch \"\u003cURLSUM\u003e\" urlsum",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u003cURLSUM\u003e",
+                  "offset": 8
+                }
+              ],
+              "location": "loginsummer.launch_urlsum(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3073057000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click loginsum",
+            "match": {
+              "location": "loginsummer.click_loginsum()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3624097500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "enter namesum and passwordsum and click submit button",
+            "match": {
+              "location": "loginsummer.enter_namesum_and_passwordsum_and_click_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3435749500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user loginsum has been successful",
+            "match": {
+              "location": "loginsummer.user_loginsum_has_been_successful()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to validate login functionality in project summer",
+    "description": "",
+    "id": "this-feature-is-to-validate-login-functionality-in-project-summer",
+    "keyword": "Feature",
+    "uri": "loginsummer.feature"
+  }
+]
